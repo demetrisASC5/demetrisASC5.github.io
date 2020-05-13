@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demetris Kyriacou - My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <button onclick="document.getElementById('aboutme').scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });">About Me</button>
+        <button onclick="document.getElementById('projects').scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });">Projects and Past Work</button>
+        <button onclick="document.getElementById('tutoring').scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });">Tutoring</button>
+        <button onclick="document.getElementById('contactinfo').scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });">Contact Me</button>
+    </div>
+    <!-- Title -->
+    <div class="container">
+        <h1>
+            <b>Welcome. <br>
+            I am Demetris Kyriacou, a <br> 
+            <span class = "accent"> programmer </span> and <span class = "accent">student</span>  <br>
+            from New York City.</b>
+        </h1>
+    </div>
+    <!-- About Me -->
+    <div class="container">
+        <div class = "Subtitle" >
+            <b>About Me</b>
+        </div>
+        <div class = "AboutMe" id="aboutme">
+            <div class = "Texts">
+                <div class = "paragraph"><p>I am a Math Major at Brooklyn Technical High School with a passion for Computer Science. In my free time I enjoy tutoring students in those areas. I am the president of the Website Development Club at my school where I teach HTML, CSS, and JavaScript to a class of 25 students.</p></div>
+                <div class = "paragraph pright"><p>I have been coding since the start of high school. I am proficient in Python, JavaScript, CSS, and HTML. Additionally, I am an Autodesk Inventor Certified User. I attended All Star Code in the summer of my junior year at JP Morgan Chase to further my skills in coding.</p></div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="container">
+        <div class = "Subtitle" >
+            <b>Projects and Past Work</b>
+        </div>
+        <div class="Projects" id="projects">
+            <div class="paragraph">
+                Have you ever wondered how long it would take to ride every train in NYC? Have you ever thought about the probability of getting hit by pigeon poop? If so I have written papers on both those topics with my major. I have worked on numerous coding projects. To the right you can view my GitHub with all my projects.
+            </div>
+            <a href="https://github.com/demetrisASC5?tab=repositories" class="link changecolor"><b>GitHub</b></a>
+            <a href="https://docs.google.com/document/d/1Vy-ojjmybtEXh9L8-rcshQ7gGOQwnyCL0TW-6XKvBwE/edit?usp=sharing" class="link changecolor"><b>NYC Subway Research Paper</b></a>
+            <a href="https://docs.google.com/document/d/1iD9HLtev-ZEnxAdsHMDMCBdQAWF10XJZuviWWKxpklA/edit?usp=sharing" class="link changecolor"><b>Pigeon Poop Research Paper</b></a>
+        </div>
+    </div>
+    <!-- Tutoring -->
+    <div class="container">
+        <div class="Subtitle">
+            <b>Tutoring</b>
+        </div>
+        <div class="Texts" id="tutoring">
+            <div class="paragraph"><p>I am very good at Mathematics and I enjoy teaching students. I am comfortable teaching any topics from elementary and middle school math, Algebra, Algebra II, Geometry, Trigonometry, and Pre-Calculus. I have taken classes at NYU through the NY Math Circle for 3 years. I also have been on my school's Math Team for 4 years, including being the captain in my Junior year.</p></div>
+            <div class="paragraph pright"><p>I am free for tutoring after school and on weekends. If interested in tutoring, please contact me below. </p></div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div class="container">
+        <div class="Subtitle">
+            <b>Contact Me</b>
+        </div>
+        <div class="paragraph" id = "contactinfo">
+            You can contact me by emailing me at <a href="mailto:kyriacoudf@gmail.com" class="changecolor"><span class="accent">kyriacoudf@gmail.com</span></a>.
+            <br><br>
+            You can find me on LinkedIn <a href="https://www.linkedin.com/in/demetris-kyriacou-32819818b/" class="changecolor"><span class="accent">here</span></a>.
+            <br><br>
+            You can visit my GitHub <a href="https://github.com/demetrisASC5?tab=projects" class="changecolor"><span class="accent">here</span></a>.
+        </div>
+    </div>
+</body>
+</html>
